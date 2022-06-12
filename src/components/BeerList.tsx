@@ -55,7 +55,7 @@ const BeerList = () => {
         {isLoading && <BeerSpinner></BeerSpinner>}
         {beers.length && beers.length > 0 ? (
           beers.map((beer: IBeerItem) => (
-            <BeerItem beerItem={beer} key={beer.id}></BeerItem>
+            <BeerItem beerItem={beer} key={beer.id} isMobile={isMobile}></BeerItem>
           ))
         ) : (
           <span>No beers yet.</span>
