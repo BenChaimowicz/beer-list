@@ -1,9 +1,8 @@
 ## Beer List By Ben Chaimowicz
-## React
 
-## To run this project please:
+To run this project follow these steps:
 
-## Clone this repository with GitHub CLI:
+### Clone this repository with GitHub CLI:
 ### `gh repo clone BenChaimowicz/beer-list`
 ### `cd beer-list`
 ### `npm run build`
