@@ -6,28 +6,21 @@
     padding: 1vw 3vw 0 3vw;
 }
 
-.beer-list__load-more-btn {
+.beer-list__container {
     display: flex;
-    flex: 1 1;
-    justify-content: center;
-    border: none;
-    color: dodgerblue;
-    background: none;
-    font-weight: bold;
-    font-size: 1.5rem;
-    cursor: pointer;
-    font-family: Montserrat;
-    
+    flex-direction: column;
+    flex: 9 1;
 }
-
-.beer-list__btn-container {
-    display: flex;
-    padding-bottom: 2vh;
-    flex: 1 1;
+.beer-list__big {
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.beer-list__btn-spacer {
+.beer-list__small {
+    flex-direction: column;
+}
+
+.beer-list__btn-container{
     display: flex;
-    flex: 4 1;
+    flex: 1 1;
 }

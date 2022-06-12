@@ -3,8 +3,6 @@ import beerloader from '../assets/beerloader.gif';
 import './BeerSpinner.css';
 
 const BeerSpinner = () => {
-    
-
   return (
     <div className='spinner'>
         <img src={beerloader} alt="" />
